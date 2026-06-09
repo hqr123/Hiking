@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>七藏沟高海拔徒步装备清单</title>
+<style>
+  { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%); min-height: 100vh; padding: 20px; color: #333; }
+  .container { max-width: 1000px; margin: 0 auto; background: white; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); overflow: hidden; }
+  header { background: linear-gradient(135deg, #1a6dcc 0%, #0d47a1 100%); color: white; padding: 30px; text-align: center; border-bottom: 3px solid #0d47a1; }
+  h1 { font-size: 2.5em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+  .subtitle { font-size: 1.1em; opacity: 0.9; margin-bottom: 15px; }
+  .date-location { font-size: 0.9em; opacity: 0.8; }
+  .content { padding: 30px; }
+  .category { margin-bottom: 25px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+  .category-header { background: #1a6dcc; color: white; padding: 15px 20px; font-size: 1.3em; font-weight: bold; display: flex; justify-content: space-between; align-items: center; }
+  .category-body { background: #f8f9fa; }
+  table { width: 100%; border-collapse: collapse; font-size: 1em; }
+  th { background: #e9ecef; padding: 12px 15px; text-align: left; color: #495057; font-weight: 600; border-bottom: 2px solid #dee2e6; }
+  td { padding: 12px 15px; border-bottom: 1px solid #dee2e6; color: #495057; transition: background 0.2s; }
+  /* 为复选框列增加最小宽度和不换行样式 */
+  .checkbox-col { width: 15%; white-space: nowrap; }
+  tr:hover td { background: #e3f2fd; transform: scale(1.01); }
+  .importance { font-weight: bold; text-align: center; border-radius: 20px; padding: 5px 15px; font-size: 0.9em; }
+  .essential { background: #4caf50; color: white; display: inline-block; }
+  .recommended { background: #2196f3; color: white; display: inline-block; }
+  .notes { color: #666; font-style: italic; font-size: 0.95em; }
+  .footer { text-align: center; padding: 20px; color: #666; font-size: 0.9em; border-top: 1px solid #eee; background: #f8f9fa; }
+  @media (max-width: 768px) { 
+    body { padding: 10px; } 
+    .container { border-radius: 10px; } 
+    h1 { font-size: 2em; } 
+    .content { padding: 20px; } 
+    td { padding: 10px; font-size: 0.95em; } 
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>七藏沟高海拔徒步装备清单</h1>
+    <div class="subtitle">专业高海拔徒步装备指南</div>
+    <div class="date-location">当前时间：2026-06-09 星期二 | 当前地点：陕西省 西安市</div>
+  </header>
+  <div class="content">
+    <!-- 背包 -->
+    <div class="category">
+      <div class="category-header">
+        <span>🎒 背包</span>
+        <span>核心承载系统</span>
+      </div>
+      <div class="category-body">
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 25%;">装备名称</th>
+              <th style="width: 15%;">重要性</th>
+              <th style="width: 45%;">备注说明</th>
+              <!-- 修改了这里的表头文字 -->
+              <th class="checkbox-col">携带状态</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>登山背包</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">48L-60L容量</td>
+              <!-- 增加了复选框 -->
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>防雨罩</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">防水防雨</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>户外雨衣</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">防雨防雪</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>背包套</td>
+              <td><span class="importance recommended">推荐</span></td>
+              <td class="notes">保护背包</td>
+              <td class="checkbox-col"><input type="checkbox"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- 服装 -->
+    <div class="category">
+      <div class="category-header">
+        <span>👕 服装</span>
+        <span>三层穿衣法则</span>
+      </div>
+      <div class="category-body">
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 25%;">装备名称</th>
+              <th style="width: 15%;">重要性</th>
+              <th style="width: 45%;">备注说明</th>
+              <!-- 保持表头一致 -->
+              <th class="checkbox-col">携带状态</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>冲锋衣</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">防风防水</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>抓绒衣</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">保暖层</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>速干内衣</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">排汗快干</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>保暖帽子</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">保暖防失温</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>防风手套</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">防滑保暖</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>厚袜子</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">厚羊毛袜</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>防晒帽</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">防紫外线</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>太阳镜</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">防强光刺激</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- 睡眠系统 -->
+    <div class="category">
+      <div class="category-header">
+        <span>🏕️ 睡眠系统</span>
+        <span>夜间保暖与休息</span>
+      </div>
+      <div class="category-body">
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 25%;">装备名称</th>
+              <th style="width: 15%;">重要性</th>
+              <th style="width: 45%;">备注说明</th>
+              <th class="checkbox-col">携带状态</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>睡袋(-10°C)</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">羽绒或棉睡袋</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>帐篷</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">高山帐</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>防潮垫</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">隔热保暖</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- 登山装备 -->
+    <div class="category">
+      <div class="category-header">
+        <span>🥾 登山装备</span>
+        <span>安全与辅助工具</span>
+      </div>
+      <div class="category-body">
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 25%;">装备名称</th>
+              <th style="width: 15%;">重要性</th>
+              <th style="width: 45%;">备注说明</th>
+              <th class="checkbox-col">携带状态</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>登山杖</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">减轻膝盖压力</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>头灯</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">必备照明</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>备用电池</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">充足电量</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>绳索</td>
+              <td><span class="importance recommended">推荐</span></td>
+              <td class="notes">应急使用</td>
+              <td class="checkbox-col"><input type="checkbox"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- 个人用品 -->
+    <div class="category">
+      <div class="category-header">
+        <span>🧴 个人用品</span>
+        <span>卫生与个人护理</span>
+      </div>
+      <div class="category-body">
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 25%;">装备名称</th>
+              <th style="width: 15%;">重要性</th>
+              <th style="width: 45%;">备注说明</th>
+              <th class="checkbox-col">携带状态</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>洗漱用品</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">个人卫生</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>防晒霜</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">SPF50+</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>润唇膏</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">防干裂</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>个人药品</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">个人特需</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>湿巾</td>
+              <td><span class="importance recommended">推荐</span></td>
+              <td class="notes">清洁用品</td>
+              <td class="checkbox-col"><input type="checkbox"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- 急救用品 -->
+    <div class="category">
+      <div class="category-header">
+        <span>⛑️ 急救用品</span>
+        <span>应急医疗处理</span>
+      </div>
+      <div class="category-body">
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 25%;">装备名称</th>
+              <th style="width: 15%;">重要性</th>
+              <th style="width: 45%;">备注说明</th>
+              <th class="checkbox-col">携带状态</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>创可贴</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">处理小伤口</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>绷带</td>
+              <td><span class="importance recommended">推荐</span></td>
+              <td class="notes">包扎固定</td>
+              <td class="checkbox-col"><input type="checkbox"></td>
+            </tr>
+            <tr>
+              <td>消毒液</td>
+              <td><span class="importance recommended">推荐</span></td>
+              <td class="notes">清洁消毒</td>
+              <td class="checkbox-col"><input type="checkbox"></td>
+            </tr>
+            <tr>
+              <td>止痛药</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">高原头痛</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- 电子设备 -->
+    <div class="category">
+      <div class="category-header">
+        <span>🔋 电子设备</span>
+        <span>通讯与记录</span>
+      </div>
+      <div class="category-body">
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 25%;">装备名称</th>
+              <th style="width: 15%;">重要性</th>
+              <th style="width: 45%;">备注说明</th>
+              <th class="checkbox-col">携带状态</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>手机</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">通讯导航</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>充电宝</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">至少20000mAh</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>对讲机</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">充满电</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>无人机</td>
+              <td><span class="importance recommended">推荐</span></td>
+              <td class="notes">2块电池以上</td>
+              <td class="checkbox-col"><input type="checkbox"></td>
+            </tr>
+            <tr>
+              <td>运动相机、360、pocket</td>
+              <td><span class="importance recommended">推荐</span></td>
+              <td class="notes">有什么带什么</td>
+              <td class="checkbox-col"><input type="checkbox"></td>
+            </tr>
+            <tr>
+              <td>GPS设备</td>
+              <td><span class="importance recommended">推荐</span></td>
+              <td class="notes">防止迷路</td>
+              <td class="checkbox-col"><input type="checkbox"></td>
+            </tr>
+            <tr>
+              <td>相机</td>
+              <td><span class="importance recommended">推荐</span></td>
+              <td class="notes">记录美景</td>
+              <td class="checkbox-col"><input type="checkbox"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- 食物饮水 -->
+    <div class="category">
+      <div class="category-header">
+        <span>🍗 食物饮水</span>
+        <span>能量补给</span>
+      </div>
+      <div class="category-body">
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 25%;">装备名称</th>
+              <th style="width: 15%;">重要性</th>
+              <th style="width: 45%;">备注说明</th>
+              <th class="checkbox-col">携带状态</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>能量棒</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">快速补充能量</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>坚果</td>
+              <td><span class="importance recommended">推荐</span></td>
+              <td class="notes">高热量零食</td>
+              <td class="checkbox-col"><input type="checkbox"></td>
+            </tr>
+            <tr>
+              <td>保温水壶</td>
+              <td><span class="importance essential">必需</span></td>
+              <td class="notes">保温保溫</td>
+              <td class="checkbox-col"><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+              <td>净水器</td>
+              <td><span class="importance recommended">推荐</span></td>
+              <td class="notes">净化水源</td>
+              <td class="checkbox-col"><input type="checkbox"></td>
+             </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
